@@ -14,6 +14,7 @@
 		1AC244A51B410C01007F3F13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AC244A41B410C01007F3F13 /* Images.xcassets */; };
 		1AC244A81B410C01007F3F13 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AC244A61B410C01007F3F13 /* LaunchScreen.xib */; };
 		1AC244B41B410C01007F3F13 /* HHZ_SwitchViewForiPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC244B31B410C01007F3F13 /* HHZ_SwitchViewForiPadTests.m */; };
+		1AC244C01B410CE7007F3F13 /* HHZSwitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC244BF1B410CE7007F3F13 /* HHZSwitchView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		1AC244AD1B410C01007F3F13 /* HHZ_SwitchViewForiPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HHZ_SwitchViewForiPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AC244B21B410C01007F3F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AC244B31B410C01007F3F13 /* HHZ_SwitchViewForiPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHZ_SwitchViewForiPadTests.m; sourceTree = "<group>"; };
+		1AC244BE1B410CE7007F3F13 /* HHZSwitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHZSwitchView.h; sourceTree = "<group>"; };
+		1AC244BF1B410CE7007F3F13 /* HHZSwitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHZSwitchView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		1AC244961B410C01007F3F13 /* HHZ_SwitchViewForiPad */ = {
 			isa = PBXGroup;
 			children = (
+				1AC244BD1B410C8F007F3F13 /* SwitchView */,
 				1AC2449B1B410C01007F3F13 /* AppDelegate.h */,
 				1AC2449C1B410C01007F3F13 /* AppDelegate.m */,
 				1AC2449E1B410C01007F3F13 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				1AC244B21B410C01007F3F13 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AC244BD1B410C8F007F3F13 /* SwitchView */ = {
+			isa = PBXGroup;
+			children = (
+				1AC244BE1B410CE7007F3F13 /* HHZSwitchView.h */,
+				1AC244BF1B410CE7007F3F13 /* HHZSwitchView.m */,
+			);
+			name = SwitchView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AC244A01B410C01007F3F13 /* ViewController.m in Sources */,
+				1AC244C01B410CE7007F3F13 /* HHZSwitchView.m in Sources */,
 				1AC2449D1B410C01007F3F13 /* AppDelegate.m in Sources */,
 				1AC2449A1B410C01007F3F13 /* main.m in Sources */,
 			);
@@ -418,6 +432,7 @@
 				1AC244B91B410C01007F3F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AC244BA1B410C01007F3F13 /* Build configuration list for PBXNativeTarget "HHZ_SwitchViewForiPadTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +441,7 @@
 				1AC244BC1B410C01007F3F13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
