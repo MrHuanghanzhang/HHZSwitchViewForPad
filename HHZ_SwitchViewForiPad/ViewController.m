@@ -42,8 +42,9 @@
     self.switchView = switchView;
     _switchView.delegate = self;
     //初始化选中位置
-    [switchView setSelectedButtonAtIndex:1];
-    
+    [switchView setSelectedButtonAtIndex:4];
+    //调用点击事件
+    [self SwitchViewClickedAtIndex:SwitchNumberTypeFour];
     [self.view addSubview:_switchView];
 }
 
